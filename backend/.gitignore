@@ -1,0 +1,116 @@
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# API Keys & Secrets
+config/keys.js
+config/secrets.js
+config/*.key
+config/*.pem
+
+# SSL Certificates
+*.p12
+*.pem
+*.crt
+*.key
+ssl/
+
+# =====================
+# NODE.JS & DEPENDENCIES
+# =====================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+.out/
+.next/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output
+
+# =====================
+# DEVELOPMENT & EDITORS
+# =====================
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# =====================
+# DATABASE & LOGS
+# =====================
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+database/dump.sql
+
+# Logs
+*.log
+logs/
+*.logs
+
+# =====================
+# UPLOADS & MEDIA
+# =====================
+
+# Uploaded files
+uploads/
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Session files
+sessions/
+
+# =====================
+# TESTING
+# =====================
+
+# Testing
+.nyc_output/
+
+# =====================
+# PLATFORM SPECIFIC
+# =====================
+
+# Windows
+*.lnk
+
+# Linux
+*~
+
+# macOS
+*.DS_Store
+.AppleDouble
+.LSOverride
